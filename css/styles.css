@@ -1,0 +1,25 @@
+body {
+  background: url(/img/labaq_albert_alcantara_mmvv_02.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+i {
+  color: #fff;
+  font-size: 120px;
+}
+
+.pintar {
+  color: yellowgreen;
+}
+
+#container > i:hover,
+#container > i:hover~i::before {
+    color: rgb(228, 43, 235);
+}
+
